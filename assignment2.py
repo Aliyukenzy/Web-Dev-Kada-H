@@ -1,0 +1,5 @@
+text = input("Enter your word: ")
+print("First character is: " + text[0])
+print("Middle character is: " + text[int(len(text) /2)])
+print("Last character is: " + text[-1])
+print("The length of the word is: " + str(len(text)))
